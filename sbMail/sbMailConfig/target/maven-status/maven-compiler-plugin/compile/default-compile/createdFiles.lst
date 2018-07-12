@@ -1,0 +1,3 @@
+br\com\sbMail\config\MailConfig.class
+br\com\sbMail\config\MainApplication.class
+br\com\sbMail\controller\sbMailController.class
