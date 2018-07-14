@@ -30,7 +30,7 @@ public class EmailSenderService implements IEmailSender{
 	@Autowired
 	private TemplateEmailService template;
 	
-	private static final String EMAIL_PREFIX = "infotecnoprev";
+	private static final String EMAIL_PREFIX = "xxxx"; //TODO USUARIO GMAIL
 	private static final String DOMINIO = "@gmail.com";
 	
 	@Autowired
@@ -59,7 +59,7 @@ public class EmailSenderService implements IEmailSender{
 				throw new CustomGenericException(HttpStatus.INTERNAL_SERVER_ERROR, e);
 			}
 		} else {
-			throw new CustomGenericException(util.getMessage("exception.bad.request"), HttpStatus.BAD_REQUEST);
+			throw new CustomGenericException(util.getMessage(PropertyUtil.EXCEPTION_BAD_REQUEST.getKey()), HttpStatus.BAD_REQUEST);
 		}
 	}
 	
@@ -103,7 +103,7 @@ public class EmailSenderService implements IEmailSender{
 				throw new CustomGenericException(HttpStatus.INTERNAL_SERVER_ERROR, e);
 			}
 		} else {
-			throw new CustomGenericException(util.getMessage("exception.bad.request"), HttpStatus.BAD_REQUEST);
+			throw new CustomGenericException(util.getMessage(PropertyUtil.EXCEPTION_BAD_REQUEST.getKey()), HttpStatus.BAD_REQUEST);
 		}
 		
 	}

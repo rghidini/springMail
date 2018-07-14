@@ -24,7 +24,7 @@ public class MailConfig {
 	private ITemplateResolver htmlTemplateResolver() {
 		final ClassLoaderTemplateResolver templateResolver = new ClassLoaderTemplateResolver();
 		templateResolver.setOrder(NumberUtils.INTEGER_ZERO);
-		templateResolver.setPrefix("/br/com/sbMail/template/");
+		templateResolver.setPrefix("br/com/sbMail/template/");
 		templateResolver.setSuffix(".html");
 		templateResolver.setTemplateMode(TemplateResolver.DEFAULT_TEMPLATE_MODE);
 		templateResolver.setCharacterEncoding("UTF-8");
@@ -36,12 +36,14 @@ public class MailConfig {
 	public JavaMailSenderImpl mailSender() {
 		JavaMailSenderImpl javaMailSender = new JavaMailSenderImpl();
 
-		javaMailSender.setHost("lesoto.rede1.br");
-		javaMailSender.setPort(25);
+		javaMailSender.setHost("smtp.gmail.com");
+		javaMailSender.setPort(587);
+		javaMailSender.setUsername("xxxxxxx");//TODO USUÁRIO GMAIL
+		javaMailSender.setPassword("xxxxxxx");//TODO SENHA GMAIL
 
 		Properties p = new Properties();
 		p.setProperty("mail.transport.protocol", "smtp");
-		p.setProperty("mail.smtp.auth", "false");
+		p.setProperty("mail.smtp.auth", "true");
 		p.setProperty("mail.smtp.starttls.enable", "true");
 		p.setProperty("mail.debug","false");
 		

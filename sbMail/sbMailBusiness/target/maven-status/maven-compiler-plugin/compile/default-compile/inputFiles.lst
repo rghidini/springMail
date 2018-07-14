@@ -1,7 +1,7 @@
-C:\Users\rafap\Documents\workspace-sts-3.9.4.RELEASE\sbMail\sbMailBusiness\src\main\java\br\com\sbMail\interfaces\IEmailSender.java
-C:\Users\rafap\Documents\workspace-sts-3.9.4.RELEASE\sbMail\sbMailBusiness\src\main\java\br\com\sbMail\util\PropertyUtil.java
-C:\Users\rafap\Documents\workspace-sts-3.9.4.RELEASE\sbMail\sbMailBusiness\src\main\java\br\com\sbMail\service\EmailSenderService.java
-C:\Users\rafap\Documents\workspace-sts-3.9.4.RELEASE\sbMail\sbMailBusiness\src\main\java\br\com\sbMail\util\UtilService.java
-C:\Users\rafap\Documents\workspace-sts-3.9.4.RELEASE\sbMail\sbMailBusiness\src\main\java\br\com\sbMail\exception\CustomGenericException.java
-C:\Users\rafap\Documents\workspace-sts-3.9.4.RELEASE\sbMail\sbMailBusiness\src\main\java\br\com\sbMail\service\TemplateEmailService.java
-C:\Users\rafap\Documents\workspace-sts-3.9.4.RELEASE\sbMail\sbMailBusiness\src\main\java\br\com\sbMail\interfaces\ITemplateEmail.java
+C:\Users\rafap\Documents\springMail\sbMail\sbMailBusiness\src\main\java\br\com\sbMail\util\UtilService.java
+C:\Users\rafap\Documents\springMail\sbMail\sbMailBusiness\src\main\java\br\com\sbMail\interfaces\IEmailSender.java
+C:\Users\rafap\Documents\springMail\sbMail\sbMailBusiness\src\main\java\br\com\sbMail\interfaces\ITemplateEmail.java
+C:\Users\rafap\Documents\springMail\sbMail\sbMailBusiness\src\main\java\br\com\sbMail\exception\CustomGenericException.java
+C:\Users\rafap\Documents\springMail\sbMail\sbMailBusiness\src\main\java\br\com\sbMail\util\PropertyUtil.java
+C:\Users\rafap\Documents\springMail\sbMail\sbMailBusiness\src\main\java\br\com\sbMail\service\EmailSenderService.java
+C:\Users\rafap\Documents\springMail\sbMail\sbMailBusiness\src\main\java\br\com\sbMail\service\TemplateEmailService.java
