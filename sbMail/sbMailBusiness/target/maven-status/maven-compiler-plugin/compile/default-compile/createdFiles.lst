@@ -1,10 +1,10 @@
 br\com\sbMail\service\EmailSenderService.class
-br\com\sbMail\service\EmailSenderService$3.class
-br\com\sbMail\interfaces\ITemplateEmail.class
-br\com\sbMail\service\TemplateEmailService.class
 br\com\sbMail\util\UtilService.class
+br\com\sbMail\service\EmailSenderService$3.class
 br\com\sbMail\service\EmailSenderService$1.class
 br\com\sbMail\exception\CustomGenericException.class
+br\com\sbMail\interfaces\ITemplateEmail.class
 br\com\sbMail\service\EmailSenderService$2.class
+br\com\sbMail\service\TemplateEmailService.class
 br\com\sbMail\interfaces\IEmailSender.class
 br\com\sbMail\util\PropertyUtil.class
